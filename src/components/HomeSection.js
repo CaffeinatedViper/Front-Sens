@@ -248,7 +248,7 @@ const HomeSection = ({videoRef, scrollToSection}) => {
               </motion.span>
             ))}
           </motion.h1>
-          <div className="">
+          <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center z-20 px-4 text-white">
             <FlipWords words={flipWords} duration={2000} />
           </div>
           {!hasScrolled && (
